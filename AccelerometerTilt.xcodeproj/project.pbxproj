@@ -14,6 +14,7 @@
 		5F4897822097FB9E000B67CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F4897802097FB9E000B67CD /* LaunchScreen.storyboard */; };
 		5F48978D2097FB9E000B67CD /* AccelerometerTiltTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F48978C2097FB9E000B67CD /* AccelerometerTiltTests.swift */; };
 		5F4897982097FB9E000B67CD /* AccelerometerTiltUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4897972097FB9E000B67CD /* AccelerometerTiltUITests.swift */; };
+		5F4897A72097FF43000B67CD /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F4897A62097FF43000B67CD /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5F4897932097FB9E000B67CD /* AccelerometerTiltUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccelerometerTiltUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F4897972097FB9E000B67CD /* AccelerometerTiltUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccelerometerTiltUITests.swift; sourceTree = "<group>"; };
 		5F4897992097FB9E000B67CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F4897A62097FF43000B67CD /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F4897A72097FF43000B67CD /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				5F48978B2097FB9E000B67CD /* AccelerometerTiltTests */,
 				5F4897962097FB9E000B67CD /* AccelerometerTiltUITests */,
 				5F4897752097FB9E000B67CD /* Products */,
+				5F4897A52097FF42000B67CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				5F4897992097FB9E000B67CD /* Info.plist */,
 			);
 			path = AccelerometerTiltUITests;
+			sourceTree = "<group>";
+		};
+		5F4897A52097FF42000B67CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F4897A62097FF43000B67CD /* CoreMotion.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
